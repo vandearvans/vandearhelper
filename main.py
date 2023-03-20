@@ -1,5 +1,10 @@
-import discord
+
+
 import os
+
+# install required packages
+os.system('pip install discord requests colorama')
+
 import requests
 import discord
 from discord.ext import commands
